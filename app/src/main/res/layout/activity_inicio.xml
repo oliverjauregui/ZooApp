@@ -37,15 +37,15 @@
         tools:textSize="18sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/ingresarApp"
         android:layout_width="326dp"
         android:layout_height="37dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginLeft="29dp"
-        android:layout_marginRight="29dp"
         android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="8dp"
         android:background="@color/colorPrimaryDark"
         android:text="CONOCE A NUESTROS ANIMALES"
         android:textColor="#ffffff"

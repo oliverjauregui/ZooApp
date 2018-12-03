@@ -18,14 +18,14 @@ class LoginActivity : AppCompatActivity() {
 
         imageView = findViewById(R.id.imageView)
         var controller: DraweeController = Fresco.newDraweeControllerBuilder()
-                        .setUri("http://i.imgur.com/jLBIIZg.gif")
+                        .setUri("http://www.globexcs.net/wp-content/uploads/2016/12/Globexcs-Loading.gif")
                         .setAutoPlayAnimations(true)
                         .build()
         imageView?.controller = controller
 
         // cargando 3 segundos
         Handler().postDelayed({
-            val intent  = Intent(this, ListaActivity::class.java)
+            val intent  = Intent(this, NotFoundActivity::class.java)
             startActivity(intent)
         }, 5000)
 
