@@ -4,11 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
-    tools:context=".DetallePersonalInfoFragment">
+    android:background="@android:color/background_light">
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +24,7 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="127dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical"
             tools:layout_marginTop="20dp">
@@ -109,7 +115,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="403dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -139,7 +145,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="284dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -148,7 +154,7 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="¿Como soy físicamente?"
@@ -314,5 +320,6 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-
+    </LinearLayout>
+    </ScrollView>
 </FrameLayout>

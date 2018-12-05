@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
 
         // cargando 3 segundos
         Handler().postDelayed({
-            val intent  = Intent(this, NotFoundActivity::class.java)
+            val intent  = Intent(this, ListaActivity::class.java)
             startActivity(intent)
         }, 5000)
 
