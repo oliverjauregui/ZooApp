@@ -9,6 +9,7 @@ import android.widget.ImageButton
 class ListaActivity : AppCompatActivity() {
 
     var btnMoreInfo: ImageButton? = null
+    var btnNoEstaMiAnimal: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,6 +19,12 @@ class ListaActivity : AppCompatActivity() {
         btnMoreInfo?.setOnClickListener {
             var intent = Intent(this, DetalleActivity::class.java)
             startActivity(intent)
+        }
+
+        btnNoEstaMiAnimal = findViewById(R.id.button_NoEstaMiAnimal)
+        btnNoEstaMiAnimal?.setOnClickListener {
+            var intent2 = Intent(this, LoginActivity::class.java)
+            startActivity(intent2)
         }
     }
 }
