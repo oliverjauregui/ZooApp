@@ -36,8 +36,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0"
                 android:src="@drawable/boton_amarillo"
-                tools:layout_margin="5dp"
-                tools:paddingTop="50DP" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -46,7 +46,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0"
                 android:src="@drawable/boton_amarillo"
-                tools:layout_margin="5dp" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -55,7 +56,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0"
                 android:src="@drawable/boton_amarillo"
-                tools:layout_margin="5dp" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -64,7 +66,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0"
                 android:src="@drawable/boton_amarillo"
-                tools:layout_margin="5dp" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -81,7 +84,8 @@
                 android:text="Nombre: Teddy\n"
                 android:textColor="@color/colorGray"
                 android:textSize="16sp"
-                tools:layout_margin="5dp" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
 
             <TextView
                 android:id="@+id/textView15"
@@ -90,7 +94,8 @@
                 android:text="Edad: 5 años"
                 android:textColor="@color/colorGray"
                 android:textSize="16sp"
-                tools:layout_margin="5dp" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
 
             <TextView
                 android:id="@+id/textView16"
@@ -99,7 +104,8 @@
                 android:text="Comida favorita: El pescado"
                 android:textColor="@color/colorGray"
                 android:textSize="16sp"
-                tools:layout_margin="5dp" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
 
             <TextView
                 android:id="@+id/textView17"
@@ -108,7 +114,8 @@
                 android:text="Personalidad: Juguetón"
                 android:textColor="@color/colorGray"
                 android:textSize="16sp"
-                tools:layout_margin="5dp" />
+                tools:layout_margintop="15dp"
+                tools:layout_marginBottom="15dp"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -131,6 +138,7 @@
             android:text="¿Sabías que?"
             android:textColor="@color/colorPrimary"
             android:textSize="24sp"
+            android:layout_marginBottom="10dp"
             android:textStyle="bold" />
 
         <TextView
@@ -163,6 +171,7 @@
             android:text="¿Como soy físicamente?"
             android:textColor="@color/colorPrimary"
             android:textSize="24sp"
+            android:layout_marginBottom="10dp"
             android:textStyle="bold" />
 
         <LinearLayout
